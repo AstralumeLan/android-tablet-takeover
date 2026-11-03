@@ -1,0 +1,23 @@
+# build output
+out/
+out-stubs/
+*.apk
+*.idsig
+*.dex
+*.jar
+*.class
+# signing keys & secrets
+*.jks
+*.keystore
+signing/
+host/config.sh
+*.token
+*.pin
+*.key
+.env
+# device dumps / logs / screenshots
+*.log
+*.db
+*.png
+*.jpg
+ui.txt

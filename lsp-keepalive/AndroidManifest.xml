@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.astra.keepalive" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="33"/>
+  <application android:label="Astra 保活（禁止中兴杀/冻 Tailscale·接管·Operit）" android:hasCode="true">
+    <meta-data android:name="xposedmodule" android:value="true"/>
+    <meta-data android:name="xposeddescription" android:value="system_server: block ZTE MindSync force-stop and CpuFreezer freeze for com.tailscale.ipn / com.astra.takeover / com.ai.assistance.operit"/>
+    <meta-data android:name="xposedminversion" android:value="82"/>
+    <meta-data android:name="xposedscope" android:resource="@array/scope"/>
+  </application>
+</manifest>

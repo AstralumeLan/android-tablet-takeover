@@ -1,0 +1,1 @@
+<resources><string name="a11y_desc">远程接管：仅在 root 命令触发时读取界面元素树，不处理事件、不提供解锁。</string></resources>
