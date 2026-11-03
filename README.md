@@ -109,3 +109,7 @@ Details: [`docs/zte-background-killing.md`](docs/zte-background-killing.md).
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+> 🤖 Made with AI · 本项目由 AI 辅助构建。
